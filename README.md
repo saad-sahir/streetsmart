@@ -1,2 +1,4 @@
 # streetsmart
 An algorithm that calculates the most optimal route based on safety parameters collected from the city. For application sake, the csv of datapoints contains the various UNIQUE locations where crime has occured in London (since London was the only city I could find that publicly providied crime spot data online). The datasets from the London Police were then processed into the csv used by the algorithm. The algorithm is based off of a multiheuristic A* search algorithm that uses two functions, one to calculate distance cost between nodes and the other to calculate safety cost between nodes, and compiles them together to create a single heuristic function to account for these two factors.   
+
+<img width="378" alt="Screenshot 2023-08-09 at 12 04 34 PM" src="https://github.com/saad-sahir/streetsmart/assets/133065206/8b20fc04-fdc7-42de-b1ad-efe5f6113061">
